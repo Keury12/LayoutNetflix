@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="fundo">#000000</color>
+    <color name="menu_navegacao">@color/white</color>
+    <color name="primaria">#E70001</color>
+    <color name="primaria_variante">#642525</color>
+    <color name="secundaria">#BF6F6F</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">LayoutNetflix</string>
+    <string name="assistir">Assistir</string>
+    <string name="detalhes">DETALHES</string>
+    <string name="drama">Drama</string>
+    <string name="filmes">Filmes</string>
+    <string name="lan_amento">Lançamento</string>
+    <string name="m_fia">Máfia</string>
+    <string name="minha_lista">Minha Lista</string>
+    <string name="minha_lista_bt">MINHA LISTA</string>
+    <string name="s_ries">Séries</string>
+    <string name="suspense">Suspense</string>
+    <style name="Base.Theme.LayoutNetflix" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+        <item name="colorPrimary">@color/primaria</item>
+        <item name="colorPrimaryVariant">@color/primaria_variante</item>
+        <item name="colorSecondary">@color/secundaria</item>
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+    <style name="Theme.LayoutNetflix" parent="Base.Theme.LayoutNetflix"/>
+</resources>
